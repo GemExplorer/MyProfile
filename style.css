@@ -1,7 +1,5 @@
 body {
-font-size: 15px;
-line-height: 25px;
-padding: 20px;
+  padding: 20px;
 }
 
 img {
@@ -10,24 +8,26 @@ img {
 }
 
 .card-one {
-color: #ECCA9C;
+  color: DBA979;
+  box-sizing: border-box;
+  border: 2px solid #dba979;
+  border-radius: 5px;
+  width: 100%;
+  padding: 20px;
+  text-align: center;
+}
+
+.card-two {
+  box-sizing: border-box;
+  border: 2px solid #dba979;
+  border-radius: 5px;
+  width: 100%;
+  text-align: left;
+  padding: 20px;
 }
 
 #image-circle {
   border-radius: 50%;
   width: 200px;
   height: 200px;
-}
-
-.container {
-  border: 2px solid #ECCA9C;
-  border-radius: 5px;
-  width: 100%;
-  margin-left: 20px;
-  margin-right: 20px;
-  padding: 20px;
-}
-
-div {
-  text-align: center;
 }
